@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Form</title>
+</head>
+
+<body>
+    <header>
+    <!--Header Section-->
+    <h1>Student Registration Form</h1>
+    </header>
+
+    <main>
+    <!--Data Form Section-->
+    <form action ="">
+        <label for ="name">Name :</label> 
+        <input type="text" placeholder ="Enter Name" id="name" name ="student_name" required><br>
+    
+        <label for="email">Email :</label> 
+        <input type="email" placeholder ="Enter Email Id" id="email" name="student_email" required><br>
+    
+        <label for="password">Password :</label>
+        <input type="password" placeholder ="Enter Password" id="password" name="student_password" required><br>
+    
+
+    <!--Gender Section-->
+    <p> Gender : 
+        <label for ="male">Male<input type = "radio" name = "gender" id = "male" value ="male"></label>
+        <label for ="female">Female<input type = "radio" name = "gender" id = "female" value =></label>
+    </p>
+
+    <!--Skills Section-->
+    <p> Skills : <br>
+        <label for ="html">HTML<input type = "checkbox" name = "skills" id = "html" value ="HTML"></label>
+        <label for ="css">CSS<input type = "checkbox" name ="skills" id = "css" value ="CSS"></label>
+        <label for ="js">Javascript<input type = "checkbox"  name ="skills" id = "js" value ="Javascript"></label>
+    </p>
+
+    <p> Date Of Birth: <br>
+        <input type = "date" name ="dob" id ="dob">
+    </p>
+    <!--Register Button-->
+    <button type ="submit">Register</button>
+    </form>
+
+
+    <h2>Submitted Students (Dummy Data)</h2>
+
+    <!--Table Section-->
+    <table border = "1">
+        
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Gender</th>
+            <th>Skills</th>
+            <th>DOB</th>     
+        </tr>
+        
+        <tr>
+            <td>John</td>
+            <td>john@gmail.com</td>
+            <td>Male</td>
+            <td>Javascript</td>
+            <td>10.01.1995</td>
+        </tr>
+
+        <tr>
+            <td>Jessy</td>
+            <td>jessy@gmail.com</td>
+            <td>Female</td>
+            <td>HTML,CSS</td>
+            <td>22.11.2002</td>
+        </tr>
+        
+
+    </table>
+    </main>
+
+
+</body>
+</html>
